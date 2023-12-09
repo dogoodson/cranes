@@ -47,6 +47,9 @@
   h1.project-name {
     font-size: 4em;
   }
+  h2.project-name {
+    font-size: 1.5em;
+  }
   body {
     color: #290f02;
     background-color: #dde8e3;
@@ -59,19 +62,45 @@
     background-color: #dde8e3;
     background-image: linear-gradient(120deg, #8fb1a2, #dde8e3);
   }
+  .project-name {
+    margin-top: 0.6em;
+  }
+  .site-footer {
+  left: 0;
+  right: 0;
+  margin: 0em;
+  padding: 0em;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border:none;
+  }
 </style>
 <!-- end custom head snippets -->
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Eric's Handmade Cranes</h1>
-      <h2 class="project-tagline">Hand-folded origami, uniquely decorated, and meticulously assembled into a variety of sizes.</h2>
-        <a href="https://www.instagram.com/ehrreck/" class="btn">
-          <p>
-            <h1 id="header-1">Instagram - ehrreck</h1>
-            <img src="media/ehrreck_qr_color.png" width="200em"/>
-          </p>
-        </a>
+    <header class="page-header" role="banner" style="background-image:url('/media/top.png'); background-repeat: repeat-x;">
+      <h1 class="project-name">origami art</h1>
+      <h1>By Eric Tagle</h1>
+    <h2 class="project-tagline">Hand-folded origami, uniquely decorated, and meticulously assembled into a variety of sizes. Custom orders may be requested by email, <a href="mailto:ehrreck@gmail.com">ehrreck@gmail.com</a>.</h2>
+      <a href="https://venmo.com/u/ehrreck" class="btn">
+        <p>
+          <h1 id="header-1">Venmo - ehrreck</h1>
+          <img src="media/venmo.png" width="200em"/>
+        </p>
+      </a>
+      <a href="https://paypal.me/ehrreck" class="btn">
+        <p>
+          <h1 id="header-1">PayPal - ehrreck</h1>
+          <img src="media/paypal.png" width="200em"/>
+        </p>
+      </a>
+      <a href="https://www.instagram.com/ehrreck/" class="btn">
+        <p>
+          <h1 id="header-1">Instagram - ehrreck</h1>
+          <img src="media/ehrreck_qr_color.png" width="200em"/>
+        </p>
+      </a>
     </header>
     <main id="content" class="main-content" role="main">
       <p style="text-align:center;"><video autoplay muted loop id="spinningCrane" width="350em">
@@ -79,7 +108,7 @@
       </video>
       </p>
       <p>
-        <img src="media/itemList.png"/>
+        <img src="media/products.png"/>
       </p>
       <h3 id="header-3">Crane configurations</h4>
       <ul>
@@ -88,10 +117,10 @@
         <li>Single crane car-charm or Christmas Ornament</li>
       </ul>
       <h3 id="header-3">Custom orders</h4>
-      <p>Have an idea for a crane? Reach out on Instagram for custom orders!</p>
-      <footer class="site-footer">
-        Copyright 2023
-      </footer>
+      <p>Have an idea for a crane? Reach out on <a href="https://www.instagram.com/ehrreck/">Instagram</a> or <a href="mailto:ehrreck@gmail.com">ehrreck@gmail.com</a> for custom orders!</p>
     </main>
+    <footer class="site-footer" style="background-image:url('/media/bottom.png'); background-repeat: repeat-x;">
+      Copyright 2023
+    </footer>
   </body>
 </html>
