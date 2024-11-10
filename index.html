@@ -76,6 +76,20 @@
   border:none;
   }
 </style>
+
+<script type="text/javascript">
+  window.onload = init;
+
+  function init()
+  {
+    var year = new Date().getFullYear();
+    if (year < 2024) {
+      year = 2024;
+    }
+    document.getElementById('copyrightRecentYear').innerHTML = year;
+  }
+</script>
+
 <!-- end custom head snippets -->
   </head>
   <body>
@@ -120,7 +134,7 @@
       <p>Have an idea for a crane? Reach out on <a href="https://www.instagram.com/ehrreck/">Instagram</a> or <a href="mailto:ehrreck@gmail.com">ehrreck@gmail.com</a> for custom orders!</p>
     </main>
     <footer class="site-footer" style="background-image:url('media/bottom.png'); background-repeat: repeat-x;">
-      Copyright 2023
+      Copyright &copy; 2023 – <span id="copyrightRecentYear">....</span>. | Eric Tagle. | All rights reserved.
     </footer>
   </body>
 </html>
